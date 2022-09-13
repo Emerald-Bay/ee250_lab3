@@ -27,5 +27,7 @@ def main():
     response = client.recv(256)
     print(response)
 
+    client.close()
+
 if __name__ == '__main__':
     main()
